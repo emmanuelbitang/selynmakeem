@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import Video from '../../videos/video-2.mp4';
-import { Button } from '../ButtonElement';
+import React, { useState } from "react";
+import Video from "../../videos/makeuprod.mp4";
+import { Button } from "../ButtonElement";
 import {
   HeroContainer,
   HeroBg,
@@ -11,7 +11,7 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
-} from './HeroElements';
+} from "./HeroElements";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
